@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+header{
+    width: 100%;
+    background-color: #000;
+    display: flex;   
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header:first-child{
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+.contenedor-menu{
+    display: inline-block;
+    padding-top: 40px;
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+  
+.contenedor-menu__menu{
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    font-family: "Kosugi Maru", sans-serif;
+    font-size: 2rem;
+}
+
+
+
+.contenedor_logos{
+    display: inline-block;
+}
+
+
+
+
+
+.contenedor-lupa{
+display: flex;
+
+}
+
+.contenedor-lupa__buscador{
+    display: flex;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 0px;
+    background-color: rgba(255, 255, 255, 0.875);
+    border: none;
+
+}
+.lupa{
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 1;
+
+}
+
+.contenedor-menu__menu:hover{
+    background-color: #e9e9e951;
+    padding: 35px 10px;
+    color: rgb(226, 75, 0);
+    border-radius: 10px;
+
+
+
+}
+
+.contenedor-lupa__buscador:hover{
+    background-color: rgba(255, 255, 255, 0.624);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+
+    flex-direction: row; /* Agregué esta propiedad */
+}
+
+.contenedor-logos {
+    flex: 1; /* Agregué esta propiedad */
+}
+
+.contenedor-menu {
+    flex: 1; /* Agregué esta propiedad */
+
+}
+
+.contenedor-lupa {
+    flex: 0 0 auto; /* Agregué esta propiedad */
+    margin-left: auto; /* Agregué esta propiedad */
+}
+
+
+
+.contenedor-menu__menu {
+    flex: 1;
+
+}
